@@ -1,1 +1,25 @@
 /* Add CSS Styling */
+.number-1{
+    background-color: lightcoral;
+    font-family: sans-serif;
+}
+
+#number-2{
+    color: blue;
+    font-size: 28px;
+}
+
+.number-3{
+    background-color: lightcoral;
+    font-family: sans-serif;
+    font-size: 28px;
+}
+
+#number-4{
+    background-color: lightgreen;
+    font-size: 28px;
+}
+
+.number-5{
+    background-color: lightcoral;
+}
