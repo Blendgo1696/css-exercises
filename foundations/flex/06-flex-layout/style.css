@@ -24,3 +24,54 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+
+/* Solution */
+
+/* first removing bullets points and underlines, from the li items, and the links */
+
+
+a{
+  text-decoration: none;
+}
+
+
+
+body{
+  display: flex;
+  flex-direction: column;
+}
+
+
+ul{
+  display: flex;
+  gap: 16px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+
+
+
+.content{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+
+.header,
+.footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+button{
+  padding: 8px 16px;
+}
